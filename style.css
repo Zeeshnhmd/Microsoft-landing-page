@@ -81,7 +81,7 @@ ul {
 .showcase-content {
   width: 40%;
   padding-top: 200px;
-  padding-left: 40px;
+  padding-left: 30px;
 }
 
 .showcase .btn {
@@ -251,13 +251,20 @@ ul {
   .main-nav ul.main-menu li:last-child {
     border-bottom: 0;
   }
+  .showcase {
+    background: url(img/surface.png) no-repeat center center/cover;
+  }
+  .showcase p {
+    display: none;
+  }
   .home-cards {
     grid-template-columns: repeat(2, 1fr);
   }
-  .xbox p {
+
+  .onedrive p {
     display: none;
   }
-  .xbox .content h2 {
+  .onedrive .content h2 {
     margin-bottom: 20px;
   }
   .links .links-inner {
@@ -268,6 +275,18 @@ ul {
   .home-cards {
     grid-template-columns: 1fr;
   }
+  .covid {
+    height: 130px;
+    line-height: 1.5;
+  }
+  .covid h1 {
+    font-size: 25px;
+  }
+  .onedrive {
+    font-size: 20px;
+    padding-left: 40px;
+  }
+
   .links .links-inner {
     grid-template-columns: 1fr;
   }
